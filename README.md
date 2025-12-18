@@ -1,6 +1,24 @@
-# My Favorite Recipe Website
+# My Favorite Recipes Website
 
-This is a React website showcasing my favorite recipe: Chocolate Chip Cookies.
+This is a React website showcasing a collection of favorite recipes extracted from a Word document.
+
+## Recipes Included
+
+- 免揉法式面包 (No-Knead French Bread)
+- 甜口荷兰松饼 (Sweet Dutch Pancakes)
+- Good Old Fashioned Pancakes
+- 巧克力慕斯蛋糕 (Chocolate Mousse Cake)
+- 黑巧克力奶油蛋糕 (Black Chocolate Cream Cake)
+- 6寸巧克力脏脏云朵蛋糕 (6-inch Chocolate Dirty Cloud Cake)
+- 巴斯克焦糖香流心芝士蛋糕 (Basque Caramel Cheesecake)
+- 戚风蛋糕卷 (Chiffon Cake Roll)
+- Tirumisu
+- 6寸咸奶油戚风蛋糕 (6-inch Salty Cream Chiffon Cake)
+- Kyle’s One90 Brisket Chili
+- Instant Pot Mexican Shredded Beef
+- Air Fryer Roasted Butternut Squash & Kale Salad
+- Avocado Tomato Salad
+- Southwestern Chopped Salad
 
 ## Getting Started
 
@@ -29,9 +47,9 @@ To deploy to GitHub Pages:
 2. Push the code to the repository
 3. Enable GitHub Pages in the repository settings, selecting the build folder as the source
 
-## Recipe
+## Live Site
 
-See the website for the full recipe.
+The website is hosted at https://hongqianl.github.io/recipe-website
 
 ### Analyzing the Bundle Size
 

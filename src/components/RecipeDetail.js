@@ -6,16 +6,9 @@ const RecipeDetail = ({ recipes }) => {
   if (!recipe) return <div>Recipe not found</div>;
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px', whiteSpace: 'pre-wrap', fontFamily: 'monospace' }}>
       <h1>{recipe.title}</h1>
-      <h2>Ingredients:</h2>
-      <ul>
-        {recipe.ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
-      </ul>
-      <h2>Instructions:</h2>
-      <ol>
-        {recipe.instructions.map((step, i) => <li key={i}>{step}</li>)}
-      </ol>
+      <pre>{recipe.raw}</pre>
       <br />
       <Link to="/" style={{ textDecoration: 'none', color: 'blue' }}>← Back to Recipes</Link>
     </div>
